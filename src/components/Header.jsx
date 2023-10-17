@@ -3,7 +3,7 @@ import {HiOutlineSearch} from 'react-icons/hi'
 
 function Header() {
   return (
-    <div className="bg-neutral-100 px-4 mx-17 flex items-center justify-between my-2">
+    <div className="px-4 mx-17 flex items-center justify-between my-2">
 		<h1>Hello,Dheeraj Singh</h1>
 			<div className="relative mx-30" >
 			
