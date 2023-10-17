@@ -8,14 +8,16 @@ const popularProducts = [
 		product_name: 'Abstract 3D"',
 		product_thumbnail: 'https://source.unsplash.com/100x100?macbook',
 		product_price: '$1499.00',
-		product_stock: 341
+		product_stock: 341,
+        Total_Sales:20
 	},
 	{
 		id: '2',
 		product_name: 'Sarphens illustration',
 		product_thumbnail: 'https://source.unsplash.com/100x100?headphones',
 		product_price: '$399.00',
-		product_stock: 24
+		product_stock: 24,
+        Total_Sales:20
 	},
 
 	
@@ -40,6 +42,7 @@ function Product() {
 							/>
 						</div>
 						<div className="ml-4 flex-1">
+                            
 							<p className="text-sm text-gray-800">{product.product_name}</p>
 							<span
 								className={classNames(
@@ -52,9 +55,12 @@ function Product() {
 								)}
 							>
 								{product.product_stock === 0 ? 'Out of Stock' : product.product_stock + ' in Stock'}
+                               
 							</span>
 						</div>
-						<div className="text-xs text-gray-400 pl-1.5">{product.product_price}</div>
+                         
+						<div className="text-xs text-gray-400 pl-1.5 px-2">{product.product_price}</div>
+                        <div className="text-xs text-gray-400 pl-1.5"> {product.Total_Sales}</div>
 					</Link>
 				))}
 			</div>

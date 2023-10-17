@@ -12,8 +12,8 @@ export default function GridStats() {
 					<span className="text-sm text-gray-500 font-light">Earning</span>
 					<div className="flex items-center">
 						<strong className="text-xl text-gray-700 font-semibold">$198K</strong>
-						<span className="text-sm text-green-500 pl-2">+37.8% this month</span>
 					</div>
+                    <p className="text-sm text-green-500 pl-2">+37.8% this month</p>
 				</div>
 			</BoxWrapper>
 			<BoxWrapper>
@@ -24,8 +24,8 @@ export default function GridStats() {
 					<span className="text-sm text-gray-500 font-light">Orders</span>
 					<div className="flex items-center">
 						<strong className="text-xl text-gray-700 font-semibold">$2.4K</strong>
-						<span className="text-sm text-green-500 pl-2">2% this month</span>
 					</div>
+                    <p className="text-sm text-green-500 pl-2">2% this month</p>
 				</div>
 			</BoxWrapper>
 			<BoxWrapper>
@@ -36,8 +36,8 @@ export default function GridStats() {
 					<span className="text-sm text-gray-500 font-light">Balance</span>
 					<div className="flex items-center">
 						<strong className="text-xl text-gray-700 font-semibold">$2.4K</strong>
-						<span className="text-sm text-red-500 pl-2">2% this month</span>
 					</div>
+                    <p className="text-sm text-red-500 pl-2">2% this month</p>
 				</div>
 			</BoxWrapper>
 			<BoxWrapper>
@@ -48,8 +48,8 @@ export default function GridStats() {
 					<span className="text-sm text-gray-500 font-light">Total Sales</span>
 					<div className="flex items-center">
 						<strong className="text-xl text-gray-700 font-semibold">$89K</strong>
-						<span className="text-sm text-red-500 pl-2">11% this week</span>
 					</div>
+                    <p className="text-sm text-red-500 pl-2">11% this week</p>
 				</div>
 			</BoxWrapper>
 		</div>
