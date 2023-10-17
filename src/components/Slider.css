@@ -32,7 +32,7 @@
   .progress-bar svg circle:last-of-type {
     stroke-dasharray: 625px;
     stroke-dashoffset: calc(625px - (625px * 65) / 168);
-    stroke: #fe6c00;
+    stroke: #006efe;
   }
   .progress-bar .number {
     position: absolute;

@@ -3,9 +3,12 @@ import {HiOutlineSearch} from 'react-icons/hi'
 
 function Header() {
   return (
-    <div className="bg-white h-16 px-4 mx-17 flex items-center border-b border-gray-200 justify-between">
-			<div className="relative">
-				<HiOutlineSearch fontSize={20} className="text-gray-400 absolute top-1/2 left-3 -translate-y-1/2" />
+    <div className="bg-neutral-100 px-4 mx-17 flex items-center justify-between my-2">
+		<h1>Hello,Dheeraj Singh</h1>
+			<div className="relative mx-30" >
+			
+				<HiOutlineSearch fontSize={20} className="text-gray-400  absolute top-1/2 left-3 -translate-y-1/2" />
+				
 				<input
 					type="text"
 					placeholder="Search..."
